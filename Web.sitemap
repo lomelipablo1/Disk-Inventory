@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+|Date: 11/18/16													                        
+|																
+|Programmer: Pablo Lomeli										
+|																
+|Notes: This is the web.sitemap file that contains the different nav links for the website.  
+|
+|Update(12/2/16): Nothing new was added here.
+|																
+|
+|Update(12/8/16): Nothing new was added here.
+|	
+-->
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Home" title="Home"  description="Home">
+        <siteMapNode url="Default.aspx" title="Home"  description="Home" />
+        <siteMapNode url="artist.aspx" title="Artist"  description="Artist" />
+      <siteMapNode url="borrower.aspx" title="Borrower"  description="Borrower" />
+      <siteMapNode url="disk.aspx" title="Disk"  description="Disk" />
+    </siteMapNode>
+</siteMap>

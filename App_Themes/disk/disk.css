@@ -1,0 +1,63 @@
+﻿                /*--------------------------------------------------------------| 
+				|Date: 11/9/16													|
+                |																|
+                |Programmer: Pablo Lomeli										|
+                |																|
+                |Notes: This is the theme style sheet. makes things diff. colors|
+                |along other stuff.                                             |
+                |                                                               |
+                |Update(11/17/16):Few changes to make things look better.       |
+                |                                                               |
+                |Update(12/2/16):Better spacing between things and validators. |
+                |																|
+                |Update(12/8/16): Nothing new.                                  |
+                |---------------------------------------------------------------*/
+
+/* the styles for the skins */
+
+.button {
+    clear:both;
+    margin-top:10px;
+    float: left;
+    margin-left: 1em;
+    width:auto;
+    
+
+}
+
+.validator {
+    color: lightcyan;
+    float: left;
+    width: 9em;
+}
+
+.validate {
+    float:left;
+}
+
+
+/* the style that puts the banner in the header */
+#banner {
+
+    width: 100%;
+    height: 185px;
+    background:url('Images/banner.gif') no-repeat center;
+    
+}
+   
+
+/* styles for the theme*/
+li a {
+        color: black;
+        font-weight: bold;
+
+    }
+header {
+    
+}
+footer {
+    border-color: black;
+}
+body {
+    background-color:cornflowerblue;
+}

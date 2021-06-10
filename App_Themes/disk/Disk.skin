@@ -1,0 +1,28 @@
+﻿                <%--------------------------------------------------------------| 
+				|Date: 11/9/16													|
+                |																|
+                |Programmer: Pablo Lomeli										|
+                |																|
+                |Notes: This is the skin file that makes buttons into CD icons  |
+                |                                                               |
+                |Update(11/17/16):Few changes to make things look better.       |
+                |                                                               |
+                |Update(12/2/16):No new code.                                   |
+                |																|
+                |Update(12/8/16): Nothing new.                                  |
+                |---------------------------------------------------------------%>
+
+<%-- named skins --%>
+<asp:ImageButton SkinId="questionMark" runat="server" ImageUrl="Images/question.gif" />
+
+<%-- default skins --%>
+<asp:Button runat="server" CssClass="button" />  
+<asp:TextBox runat="server" CssClass="entry"></asp:TextBox>
+<asp:DropDownList runat="server" CssClass="entry"></asp:DropDownList>
+
+<asp:RequiredFieldValidator runat="server" CssClass="validator"></asp:RequiredFieldValidator>
+<asp:RangeValidator runat="server" CssClass="validator"></asp:RangeValidator>
+<asp:CustomValidator runat="server" CssClass="validator"></asp:CustomValidator>
+<asp:RegularExpressionValidator runat="server" CssClass="validator"></asp:RegularExpressionValidator>
+<asp:ValidationSummary runat="server" CssClass="validator"></asp:ValidationSummary>
+

@@ -1,0 +1,58 @@
+﻿                <%--------------------------------------------------------------| 
+				|Date: 11/9/16													|
+                |																|
+                |Programmer: Pablo Lomeli										|
+                |																|
+                |Notes: This is the master site that will be the basis to which |
+				|the other websites will look like. The theme is used on the    |
+                |menu control that was requested to have.                       |
+                |                                                               |  
+                |Update(11/17/16): Nothing new on this page.                    |
+                |																|
+                |Update(12/2/16): Nothing new on this page.                     |
+                |																|
+                |																|
+                |Update(12/8/16): Nothing new on this page.                     |
+                |																|
+                |---------------------------------------------------------------%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" ClientIDMode="Static" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Project 6</title>
+    <link href="Styles/Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <div id="banner"></div>
+    </header>
+    
+    <form id="Form1" runat="server">
+
+        
+
+
+        <asp:Menu ID="Menu1" runat="server" Orientation="horizontal" DataSourceID="SiteMapDataSource1" backcolor="#B5C7DE" ForeColor="white"
+            StaticHoverStyle-BackColor="#507CD1" StaticHoverStyle-ForeColor="White" cssclass="menu" >
+            <DynamicHoverStyle BackColor="#284e98" ForeColor="White" />
+            
+            <staticmenuitemstyle cssclass="menustyle" />
+        </asp:Menu>
+    
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            <asp:ContentPlaceHolder id="formPlaceHolder" runat="server" >        
+            </asp:ContentPlaceHolder> 
+        
+    
+
+    </form>
+
+    <footer> 
+        <p>&copy; 3005, Pablo Lomeli</p> 
+    </footer>     
+</body>
+</html>
